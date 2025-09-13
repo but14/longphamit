@@ -1,0 +1,161 @@
+{
+  "name": {
+    "vi": "Phạm Nguyễn Hoàng Long",
+    "en": "Pham Nguyen Hoang Long"
+  },
+  "role": {
+    "vi": "Kỹ sư phần mềm",
+    "en": "Software Engineer"
+  },
+  "summary": {
+    "vi": "Kỹ sư phần mềm với đam mê xây dựng hệ thống web hiện đại, tối ưu hiệu năng và trải nghiệm người dùng. Quan tâm đến kiến trúc hệ thống, bảo mật và thực thi trên hạ tầng cloud.",
+    "en": "Software Engineer passionate about building modern web systems, optimizing performance and user experience. Interested in system architecture, security, and cloud infrastructure implementation."
+  },
+  "university": {
+    "name": {
+      "vi": "Đại học ...",
+      "en": "University of ..."
+    },
+    "department": {
+      "vi": "Công nghệ Thông tin",
+      "en": "Information Technology"
+    }
+  },
+  "experience": [
+    {
+      "company": {
+        "vi": "Công ty ABC",
+        "en": "ABC Company"
+      },
+      "position": {
+        "vi": "Kỹ sư phần mềm",
+        "en": "Software Engineer"
+      },
+      "period": "2022 - Hiện tại",
+      "description": {
+        "vi": "Phát triển và duy trì các ứng dụng web hiện đại sử dụng React, Next.js và Node.js. Tối ưu hóa hiệu suất và trải nghiệm người dùng.",
+        "en": "Developing and maintaining modern web applications using React, Next.js, and Node.js. Optimizing performance and user experience."
+      }
+    },
+    {
+      "company": {
+        "vi": "Công ty XYZ",
+        "en": "XYZ Company"
+      },
+      "position": {
+        "vi": "Thực tập sinh",
+        "en": "Intern"
+      },
+      "period": "2021 - 2022",
+      "description": {
+        "vi": "Hỗ trợ phát triển các tính năng front-end cho ứng dụng web. Học hỏi và áp dụng các công nghệ mới.",
+        "en": "Assisted in developing front-end features for web applications. Learning and applying new technologies."
+      }
+    }
+  ],
+  "skills": {
+    "technical": [
+      {
+        "category": {
+          "vi": "Front-end",
+          "en": "Front-end"
+        },
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML/CSS"]
+      },
+      {
+        "category": {
+          "vi": "Back-end",
+          "en": "Back-end"
+        },
+        "items": ["Node.js", "Express", "ASP.NET Core", "REST API", "GraphQL"]
+      },
+      {
+        "category": {
+          "vi": "Cơ sở dữ liệu",
+          "en": "Databases"
+        },
+        "items": ["MongoDB", "PostgreSQL", "SQL Server", "Redis"]
+      },
+      {
+        "category": {
+          "vi": "DevOps & Cloud",
+          "en": "DevOps & Cloud"
+        },
+        "items": ["Azure", "AWS", "Docker", "CI/CD", "Git"]
+      }
+    ],
+    "languages": [
+      {
+        "name": {
+          "vi": "Tiếng Việt",
+          "en": "Vietnamese"
+        },
+        "level": {
+          "vi": "Bản ngữ",
+          "en": "Native"
+        }
+      },
+      {
+        "name": {
+          "vi": "Tiếng Anh",
+          "en": "English"
+        },
+        "level": {
+          "vi": "Thành thạo",
+          "en": "Proficient"
+        }
+      }
+    ]
+  },
+  "certificates": [
+    {
+      "vi": "Microsoft Certified: Azure Fundamentals",
+      "en": "Microsoft Certified: Azure Fundamentals"
+    },
+    {
+      "vi": "AWS Certified Cloud Practitioner",
+      "en": "AWS Certified Cloud Practitioner"
+    }
+  ],
+  "awards": [
+    {
+      "vi": "Top 5 Hackathon trường 2023",
+      "en": "Top 5 University Hackathon 2023"
+    },
+    {
+      "vi": "Sinh viên Nghiên cứu Khoa học cấp Khoa",
+      "en": "Faculty-level Research Student Award"
+    }
+  ],
+  "research": [
+    {
+      "title": {
+        "vi": "Hệ thống giám sát phòng họp tích hợp M365",
+        "en": "M365 Integrated Meeting Room Monitoring System"
+      },
+      "venue": {
+        "vi": "Hội thảo ABC",
+        "en": "ABC Conference"
+      },
+      "year": 2024,
+      "link": ""
+    },
+    {
+      "title": {
+        "vi": "Tối ưu hóa pipeline dữ liệu cho IoT",
+        "en": "Optimization of Data Pipelines for IoT"
+      },
+      "venue": {
+        "vi": "Tạp chí XYZ",
+        "en": "XYZ Journal"
+      },
+      "year": 2023,
+      "link": ""
+    }
+  ],
+  "contacts": {
+    "github": "https://github.com/your-username",
+    "linkedin": "https://www.linkedin.com/in/your-username",
+    "email": "you@example.com"
+  }
+}

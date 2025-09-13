@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Room Booking System",
+    "description": "Nền tảng đặt phòng họp tích hợp Microsoft 365 SSO, FullCalendar, gửi email và đồng bộ Outlook.",
+    "tech": [
+      "React",
+      "Node.js",
+      "Microsoft Graph",
+      "MySQL",
+      "Vercel"
+    ],
+    "year": "2024–2025",
+    "team": "2 người",
+    "github": "",
+    "link": "",
+    "image": ""
+  },
+  {
+    "title": "Digital V‑Card / Employee ID",
+    "description": "Hệ thống thẻ nhân viên số, QR code, tra cứu nhanh; hỗ trợ mobile app.",
+    "tech": [
+      "React",
+      "Flutter",
+      "Node.js",
+      "MySQL"
+    ],
+    "year": "2024",
+    "team": "3 người",
+    "github": "",
+    "link": "",
+    "image": ""
+  },
+  {
+    "title": "Schedule Calendar System",
+    "description": "Quản lý lịch làm việc của lãnh đạo, đồng bộ email thông báo tự động.",
+    "tech": [
+      "React",
+      "Node.js",
+      "MUI",
+      "Graph API"
+    ],
+    "year": "2023–2024",
+    "team": "Cá nhân",
+    "github": "",
+    "link": "",
+    "image": ""
+  }
+]

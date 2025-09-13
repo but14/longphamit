@@ -1,0 +1,54 @@
+{
+  "vi": {
+    "sections": {
+      "about": "Giới thiệu",
+      "education": "Học vấn",
+      "experience": "Kinh nghiệm làm việc",
+      "skills": {
+        "title": "Kỹ năng",
+        "technical": "Kỹ năng chuyên môn",
+        "languages": "Ngôn ngữ"
+      },
+      "certificates": "Chứng chỉ",
+      "awards": "Giải thưởng",
+      "research": "Nghiên cứu khoa học",
+      "projects": "Dự án",
+      "contact": "Thông tin liên hệ"
+    },
+    "profile": {
+      "university": "Trường đại học",
+      "viewDetails": "Xem chi tiết",
+      "contactLinks": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "email": "Email"
+      }
+    }
+  },
+  "en": {
+    "sections": {
+      "about": "About",
+      "education": "Education",
+      "experience": "Work Experience",
+      "skills": {
+        "title": "Skills",
+        "technical": "Technical Skills",
+        "languages": "Languages"
+      },
+      "certificates": "Certificates",
+      "awards": "Awards",
+      "research": "Research",
+      "projects": "Projects",
+      "contact": "Contact Information"
+    },
+    "profile": {
+      "university": "University",
+      "viewDetails": "View details",
+      "contactLinks": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "email": "Email"
+      }
+    }
+  }
+}
