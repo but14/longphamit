@@ -1,4 +1,11 @@
 {
+  "avatar": {
+    "url": "/images/avatar.jpg",
+    "alt": {
+      "vi": "Ảnh đại diện của Phạm Nguyễn Hoàng Long",
+      "en": "Profile picture of Pham Nguyen Hoang Long"
+    }
+  },
   "name": {
     "vi": "Phạm Nguyễn Hoàng Long",
     "en": "Pham Nguyen Hoang Long"
@@ -8,13 +15,13 @@
     "en": "Software Engineer"
   },
   "summary": {
-    "vi": "Kỹ sư phần mềm với đam mê xây dựng hệ thống web hiện đại, tối ưu hiệu năng và trải nghiệm người dùng. Quan tâm đến kiến trúc hệ thống, bảo mật và thực thi trên hạ tầng cloud.",
-    "en": "Software Engineer passionate about building modern web systems, optimizing performance and user experience. Interested in system architecture, security, and cloud infrastructure implementation."
+    "vi": "Với thời gian được làm việc trong lĩnh vực chuyển đổi số doanh nghiệp, tôi mong muốn tạo dựng những giá trị bền vững thông qua đóng góp thiết thực và cam kết đồng hành lâu dài cùng sự phát triển của công ty. Tôi không ngừng học hỏi, hoàn thiện bản thân và sẵn sàng đảm nhận những trọng trách lớn hơn trong tương lai.",
+    "en": "With experience in the field of digital transformation, I aspire to create lasting value through meaningful contributions and a long-term commitment to the company's growth. I continuously seek to learn, improve myself, and remain ready to take on greater responsibilities in the future."
   },
   "university": {
     "name": {
-      "vi": "Đại học ...",
-      "en": "University of ..."
+      "vi": "Học Viện Hàng Không Việt Nam",
+      "en": "Viet Nam Aviation Academy"
     },
     "department": {
       "vi": "Công nghệ Thông tin",
@@ -24,32 +31,140 @@
   "experience": [
     {
       "company": {
-        "vi": "Công ty ABC",
-        "en": "ABC Company"
+        "vi": "I Group Corporation",
+        "en": "I Group Corporation"
       },
       "position": {
         "vi": "Kỹ sư phần mềm",
         "en": "Software Engineer"
       },
-      "period": "2022 - Hiện tại",
+      "period": "03/2025 - Hiện tại",
       "description": {
-        "vi": "Phát triển và duy trì các ứng dụng web hiện đại sử dụng React, Next.js và Node.js. Tối ưu hóa hiệu suất và trải nghiệm người dùng.",
-        "en": "Developing and maintaining modern web applications using React, Next.js, and Node.js. Optimizing performance and user experience."
+        "vi": "Phát triển nhiều dự án quan trọng cho công ty, bao gồm website doanh nghiệp, nền tảng e-Learning, hệ thống quản lý lịch trình, hệ thống V-Card trực tuyến và ứng dụng quét CCCD.",
+        "en": "Developed multiple key projects for the company, including corporate websites, e-Learning platform, schedule management system, online V-Card system, and ID scanning application."
+      },
+      "projects": [
+        {
+          "name": {
+            "vi": "Website NhaTrang Seafoods",
+            "en": "NhaTrang Seafoods Website"
+          },
+          "role": {
+            "vi": "Fullstack Developer",
+            "en": "Fullstack Developer"
+          },
+          "tech": "PHP, Wordpress, FivoDocs, Flatsome theme, MySQL",
+          "achievements": {
+            "vi": "Phát triển và triển khai website doanh nghiệp cho NhaTrang Seafoods, cải thiện khả năng tiếp cận trực tuyến của khách hàng và tăng hiệu quả xử lý đơn hàng lên 25%.",
+            "en": "Developed and deployed a corporate website for NhaTrang Seafoods, improving customer online access and increasing order processing efficiency by 25%."
+          }
+        },
+        {
+          "name": {
+            "vi": "E-Learning I Group",
+            "en": "E-Learning I Group"
+          },
+          "role": {
+            "vi": "Fullstack Developer",
+            "en": "Fullstack Developer"
+          },
+          "tech": "PHP, Moodle, Edwiser RemUi Theme, MySQL",
+          "achievements": {
+            "vi": "Xây dựng nền tảng e-learning nội bộ hỗ trợ hơn 100 nhân viên, giảm chi phí đào tạo 40% và cho phép theo dõi tiến độ và báo cáo theo thời gian thực.",
+            "en": "Built an internal e-learning platform supporting 100+ employees, reducing training costs by 40% and enabling real-time progress tracking and reporting."
+          }
+        },
+        {
+          "name": {
+            "vi": "Hệ thống Lịch trình",
+            "en": "Schedule Calendar System"
+          },
+          "role": {
+            "vi": "Fullstack Developer",
+            "en": "Fullstack Developer"
+          },
+          "tech": "NodeJS, React JS, ExpressJS, Microservices, Material UI, MySQL",
+          "achievements": {
+            "vi": "Thiết kế và triển khai hệ thống quản lý lịch làm việc cho giám đốc bộ phận, tích hợp với Microsoft 365; tối ưu hóa điều phối lịch trình và giảm xung đột lịch 30%.",
+            "en": "Designed and implemented a work schedule management system for divisional directors, integrated with Microsoft 365; optimized executive calendar coordination and reduced scheduling conflicts by 30%."
+          }
+        },
+        {
+          "name": {
+            "vi": "Hệ thống V-Card trực tuyến",
+            "en": "V-Card Online System"
+          },
+          "role": {
+            "vi": "Fullstack Developer",
+            "en": "Fullstack Developer"
+          },
+          "tech": "PHP, Laravel 11, Bootstrap, JQuery, MySQL",
+          "achievements": {
+            "vi": "Phát triển hệ thống V-Card số cho tất cả nhân viên trong tập đoàn, cho phép tự động tạo mã QR liên kết với trang hồ sơ cá nhân. Tích hợp thành công với chữ ký email Outlook, cải thiện thương hiệu chuyên nghiệp và giảm 50% công sức chia sẻ thủ công.",
+            "en": "Developed a digital V-Card system for all employees across the corporation, enabling automatic QR Code generation linked to personal profile pages. Successfully integrated with Outlook email signatures, improving professional branding and reducing manual sharing effort by 50%."
+          }
+        },
+        {
+          "name": {
+            "vi": "Hệ thống quét CCCD nhân viên",
+            "en": "Employee ID Scanning System"
+          },
+          "role": {
+            "vi": "Fullstack Developer",
+            "en": "Fullstack Developer"
+          },
+          "tech": "Flutter (Mobile App), ReactJS, ExpressJS, REST API, Material UI, MySQL",
+          "achievements": {
+            "vi": "Xây dựng ứng dụng di động để quét CCCD của công nhân nhà máy, với dữ liệu tự động tải lên cổng HR tập trung. Đẩy nhanh quy trình nhập và xác minh nhân sự lên 60%, đảm bảo truy cập chính xác, theo thời gian thực vào hồ sơ nhân viên cho phòng nhân sự.",
+            "en": "Built a mobile application for scanning Vietnamese citizen ID cards of factory workers, with data automatically uploaded to a centralized HR portal. Accelerated HR onboarding and verification process by 60%, ensuring accurate, real-time access to employee records for the HR department."
+          }
+        }
+      ]
+    },
+    {
+      "company": {
+        "vi": "MindX Technology School",
+        "en": "MindX Technology School"
+      },
+      "position": {
+        "vi": "Giáo viên Công nghệ",
+        "en": "Technology Instructor"
+      },
+      "period": "09/2025 - Hiện tại",
+      "description": {
+        "vi": "Giảng dạy các khóa học về lập trình và công nghệ cho học viên. Thiết kế giáo án và tài liệu học tập, hướng dẫn học viên thực hiện các dự án thực tế, và đánh giá sự tiến bộ của học viên.",
+        "en": "Teaching programming and technology courses to students. Designing lesson plans and learning materials, guiding students through practical projects, and evaluating student progress."
       }
     },
     {
       "company": {
-        "vi": "Công ty XYZ",
-        "en": "XYZ Company"
+        "vi": "AU-AVAGO",
+        "en": "AU-AVAGO"
       },
       "position": {
-        "vi": "Thực tập sinh",
-        "en": "Intern"
+        "vi": "Python Developer",
+        "en": "Python Developer"
       },
-      "period": "2021 - 2022",
+      "period": "10/2024 - 12/2024",
       "description": {
-        "vi": "Hỗ trợ phát triển các tính năng front-end cho ứng dụng web. Học hỏi và áp dụng các công nghệ mới.",
-        "en": "Assisted in developing front-end features for web applications. Learning and applying new technologies."
+        "vi": "Phát triển các script Python để tự động hóa các tác vụ lặp lại như nhập dữ liệu, tạo báo cáo, gửi email và quản lý tệp. Xây dựng API hoặc bot để tích hợp với CRM, ERP, Google Sheets, Slack và các nền tảng kinh doanh khác. Phát triển công cụ xử lý dữ liệu, trực quan hóa và phân tích để trích xuất thông tin có ý nghĩa, dự báo xu hướng kinh doanh và tối ưu hóa quy trình hoạt động. Thiết kế và xây dựng các module mở rộng tùy chỉnh theo yêu cầu của khách hàng.",
+        "en": "Develop Python scripts to automate repetitive tasks such as data entry, report generation, email dispatching, and file management. Build APIs or bots to integrate with CRM, ERP, Google Sheets, Slack, and other business platforms. Develop tools for data processing, visualization, and analytics to extract meaningful insights, forecast business trends, and optimize operational workflows. Design and build custom extension modules as per customer requirements."
+      },
+      "tech": "Odoo, OWL, Bootstrap, Python, Pandas, TensorFlow"
+    },
+    {
+      "company": {
+        "vi": "Học viện Công nghệ sáng tạo Teky",
+        "en": "Teky Academy"
+      },
+      "position": {
+        "vi": "Giáo viên Công nghệ ",
+        "en": "Technology Instructor"
+      },
+      "period": "10/2023 - 08/2025",
+      "description": {
+        "vi": "Giảng dạy các khóa học về lập trình, robotics và công nghệ cho học sinh. Hướng dẫn học sinh thực hiện các dự án thực tế và phát triển kỹ năng giải quyết vấn đề.",
+        "en": "Teaching programming, robotics, and technology courses to students. Guiding students through practical projects and developing problem-solving skills."
       }
     }
   ],
@@ -60,21 +175,39 @@
           "vi": "Front-end",
           "en": "Front-end"
         },
-        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML/CSS"]
+        "items": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "HTML/CSS",
+          "Bootstrap",
+          "Material UI",
+          "JQuery"
+        ]
       },
       {
         "category": {
           "vi": "Back-end",
           "en": "Back-end"
         },
-        "items": ["Node.js", "Express", "ASP.NET Core", "REST API", "GraphQL"]
+        "items": [
+          "Node.js",
+          "Express",
+          "PHP",
+          "Laravel",
+          "ASP.NET Core",
+          "REST API",
+          "GraphQL",
+          "Python"
+        ]
       },
       {
         "category": {
           "vi": "Cơ sở dữ liệu",
           "en": "Databases"
         },
-        "items": ["MongoDB", "PostgreSQL", "SQL Server", "Redis"]
+        "items": ["MongoDB", "PostgreSQL", "SQL Server", "MySQL", "Redis"]
       },
       {
         "category": {
@@ -82,6 +215,20 @@
           "en": "DevOps & Cloud"
         },
         "items": ["Azure", "AWS", "Docker", "CI/CD", "Git"]
+      },
+      {
+        "category": {
+          "vi": "Khác",
+          "en": "Others"
+        },
+        "items": [
+          "WordPress",
+          "Moodle",
+          "Flutter",
+          "Microservices",
+          "Pandas",
+          "TensorFlow"
+        ]
       }
     ],
     "languages": [
@@ -109,12 +256,16 @@
   },
   "certificates": [
     {
-      "vi": "Microsoft Certified: Azure Fundamentals",
-      "en": "Microsoft Certified: Azure Fundamentals"
+      "vi": "Microsoft Certified: Azure Fundamentals – AZ-900",
+      "en": "Microsoft Certified: Azure Fundamentals – AZ-900"
     },
     {
-      "vi": "AWS Certified Cloud Practitioner",
-      "en": "AWS Certified Cloud Practitioner"
+      "vi": "Microsoft Certified: Power BI Data Analyst Associate - PL-300",
+      "en": "Microsoft Certified: Power BI Data Analyst Associate - PL-300"
+    },
+    {
+      "vi": "Google Certificate of Completion – Elements of AI",
+      "en": "Google Certificate of Completion – Elements of AIs"
     }
   ],
   "awards": [

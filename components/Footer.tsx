@@ -12,7 +12,7 @@ export default function Footer() {
       transition={{ delay: 0.5, duration: 0.5 }}
     >
       <div className="container max-w-6xl mx-auto px-4 text-center text-neutral-400 text-sm">
-        © {currentYear} PNH Long. All rights reserved.
+        © {currentYear} Pham Nguyen Hoang Long. All rights reserved.
       </div>
     </motion.footer>
   );

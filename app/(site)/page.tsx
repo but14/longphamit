@@ -1,6 +1,7 @@
 "use client";
 import Badge from "@/components/Badge";
 import Section from "@/components/Section";
+import ProfileHeader from "@/components/ProfileHeader";
 import {
   Github,
   Linkedin,
@@ -51,100 +52,62 @@ export default function Home() {
   return (
     <div className="space-y-12 mb-12">
       {/* Language Switcher */}
-      <div className="flex justify-end mt-4">
+      {/* <div className="flex justify-end mt-4">
         <button
           onClick={() => setLanguage(language === "vi" ? "en" : "vi")}
           className="px-3 py-1 rounded-lg bg-neutral-800/50 hover:bg-neutral-800/70 text-sm"
         >
           {language === "vi" ? "English" : "Tiếng Việt"}
         </button>
-      </div>
+      </div> */}
 
-      {/* Header Section */}
-      <header className="grid md:grid-cols-2 gap-8 items-center">
-        <div className="space-y-6">
-          <Badge text={getProfileValue(profile.role)} />
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
-            {getProfileValue(profile.name)}
-          </h1>
-          <p className="text-neutral-300 leading-relaxed">
-            {getProfileValue(profile.summary)}
-          </p>
-          <div className="flex flex-wrap gap-3">
-            {profile.contacts.github && (
-              <a
-                className="card px-4 py-2 inline-flex items-center gap-2"
-                href={profile.contacts.github}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Github size={18} /> {t("profile.contactLinks.github")}
-              </a>
-            )}
-            {profile.contacts.linkedin && (
-              <a
-                className="card px-4 py-2 inline-flex items-center gap-2"
-                href={profile.contacts.linkedin}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Linkedin size={18} /> {t("profile.contactLinks.linkedin")}
-              </a>
-            )}
-            {profile.contacts.email && (
-              <a
-                className="card px-4 py-2 inline-flex items-center gap-2"
-                href={`mailto:${profile.contacts.email}`}
-              >
-                <Mail size={18} /> {t("profile.contactLinks.email")}
-              </a>
-            )}
-          </div>
-        </div>
-        <div className="card p-6 md:p-8 relative overflow-hidden">
-          <div
-            className="absolute -right-10 -top-10 size-40 rounded-full blur-3xl opacity-30"
-            style={{
-              background:
-                "radial-gradient(circle at center, hsl(var(--brand)) 0%, transparent 70%)",
-            }}
-          />
-          <ul className="space-y-4">
-            <li className="flex items-start gap-3">
-              <GraduationCap className="mt-1 animate-float" />
-              <div>
-                <h3 className="font-semibold">{t("profile.university")}</h3>
-                <p className="text-neutral-300">
-                  {getProfileValue(profile.university.name)} —{" "}
-                  {getProfileValue(profile.university.department)}
-                </p>
-              </div>
-            </li>
-            <li className="flex items-start gap-3">
-              <BookOpenText className="mt-1" />
-              <div>
-                <h3 className="font-semibold">{t("sections.certificates")}</h3>
-                <ul className="list-disc ml-5 text-neutral-300">
-                  {profile.certificates.map((c, i) => (
-                    <li key={i}>{getProfileValue(c)}</li>
-                  ))}
-                </ul>
-              </div>
-            </li>
-            <li className="flex items-start gap-3">
-              <Award className="mt-1" />
-              <div>
-                <h3 className="font-semibold">{t("sections.awards")}</h3>
-                <ul className="list-disc ml-5 text-neutral-300">
-                  {profile.awards.map((a, i) => (
-                    <li key={i}>{getProfileValue(a)}</li>
-                  ))}
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </header>
+      {/* Profile Header with Avatar */}
+      <ProfileHeader t={t} getProfileValue={getProfileValue} />
+
+      {/* Info Card Section */}
+      <div className="card p-6 md:p-8 relative overflow-hidden">
+        <div
+          className="absolute -right-10 -top-10 size-40 rounded-full blur-3xl opacity-30"
+          style={{
+            background:
+              "radial-gradient(circle at center, hsl(var(--brand)) 0%, transparent 70%)",
+          }}
+        />
+        <ul className="space-y-4">
+          <li className="flex items-start gap-3">
+            <GraduationCap className="mt-1 animate-float" />
+            <div>
+              <h3 className="font-semibold">{t("profile.university")}</h3>
+              <p className="text-neutral-300">
+                {getProfileValue(profile.university.name)} —{" "}
+                {getProfileValue(profile.university.department)}
+              </p>
+            </div>
+          </li>
+          <li className="flex items-start gap-3">
+            <BookOpenText className="mt-1" />
+            <div>
+              <h3 className="font-semibold">{t("sections.certificates")}</h3>
+              <ul className="list-disc ml-5 text-neutral-300">
+                {profile.certificates.map((c, i) => (
+                  <li key={i}>{getProfileValue(c)}</li>
+                ))}
+              </ul>
+            </div>
+          </li>
+          <li className="flex items-start gap-3">
+            <Award className="mt-1" />
+            <div>
+              <h3 className="font-semibold">{t("sections.awards")}</h3>
+              <ul className="list-disc ml-5 text-neutral-300">
+                {profile.awards.map((a, i) => (
+                  <li key={i}>{getProfileValue(a)}</li>
+                ))}
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
 
       {/* Experience Section */}
       <Section title={t("sections.experience")}>
