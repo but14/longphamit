@@ -14,31 +14,11 @@ export default function Footer() {
     >
       <div className="container max-w-6xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <motion.div 
+          <motion.div
             className="text-neutral-400 text-sm"
             whileHover={{ color: "#3b82f6" }}
           >
             © {currentYear} Pham Nguyen Hoang Long. All rights reserved.
-          </motion.div>
-          
-          <motion.div 
-            className="flex items-center gap-1 text-sm text-neutral-400"
-            whileHover={{ scale: 1.05 }}
-          >
-            Built with 
-            <motion.span
-              animate={{ 
-                scale: [1, 1.2, 1],
-              }}
-              transition={{ 
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "reverse"
-              }}
-            >
-              <Heart size={14} className="text-red-500 fill-red-500" />
-            </motion.span>
-            using Next.js & Tailwind CSS
           </motion.div>
         </div>
       </div>
