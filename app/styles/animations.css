@@ -1,0 +1,187 @@
+/* animations.css - Tệp chứa các hiệu ứng animation cho website */
+
+/* Hiệu ứng gradient text animation */
+.animated-gradient-text {
+  background-size: 200% 200%;
+  background-image: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899, #3b82f6);
+  animation: gradient-shift 8s ease infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Hiệu ứng typing text */
+.typing-effect {
+  border-right: 2px solid #3b82f6;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #3b82f6 }
+}
+
+/* Hiệu ứng nổi 3D khi hover */
+.hover-3d {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-3d:hover {
+  transform: translateY(-5px) translateZ(10px);
+  box-shadow: 
+    0 10px 20px rgba(0, 0, 0, 0.2),
+    0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hiệu ứng shine cho các card */
+.shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.shine::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  transform: skewX(-25deg);
+  transition: all 0.75s;
+  z-index: 1;
+}
+
+.shine:hover::before {
+  animation: shine 1.5s;
+}
+
+@keyframes shine {
+  100% {
+    left: 150%;
+  }
+}
+
+/* Hiệu ứng nút nhấp nháy */
+.pulse-button {
+  position: relative;
+}
+
+.pulse-button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7);
+  animation: pulse-border 2s infinite;
+}
+
+@keyframes pulse-border {
+  0% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(59, 130, 246, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0);
+  }
+}
+
+/* Hiệu ứng background particles */
+.particles {
+  position: relative;
+}
+
+.particles span {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(59, 130, 246, 0.3);
+  pointer-events: none;
+  animation: particles-float 3s infinite ease-in-out;
+}
+
+@keyframes particles-float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Hiệu ứng loading skeleton */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.05) 25%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0.05) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Hiệu ứng focus khi hover */
+.focus-in {
+  transition: all 0.3s ease;
+}
+
+.focus-in:hover {
+  filter: brightness(1.1);
+  transform: scale(1.02);
+  z-index: 1;
+}
+
+.focus-out {
+  transition: all 0.3s ease;
+}
+
+.focus-in:hover ~ .focus-out {
+  filter: blur(2px) brightness(0.8);
+}
+
+/* Hiệu ứng border gradient animation */
+.border-gradient {
+  position: relative;
+  border-radius: 0.5rem;
+  padding: 1px;
+  background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899, #3b82f6);
+  background-size: 200% 200%;
+  animation: gradient-shift 4s ease infinite;
+}
+
+.border-gradient-content {
+  background-color: rgb(23, 23, 23);
+  border-radius: 0.4rem;
+  padding: 1rem;
+}

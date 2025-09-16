@@ -10,9 +10,9 @@
         "languages": "Ngôn ngữ"
       },
       "certificates": "Chứng chỉ",
-      "awards": "Giải thưởng",
       "research": "Nghiên cứu khoa học",
       "projects": "Dự án",
+      "projectsSubtitle": "Tổng hợp dự án tiêu biểu trong quá trình học tập và làm việc.",
       "contact": "Thông tin liên hệ"
     },
     "profile": {
@@ -22,7 +22,17 @@
         "github": "GitHub",
         "linkedin": "LinkedIn",
         "email": "Email"
-      }
+      },
+      "scrollToTop": "Lên đầu trang"
+    },
+    "common": {
+      "viewProject": "Xem dự án",
+      "sourceCode": "Mã nguồn",
+      "liveDemo": "Xem trực tiếp",
+      "year": "Năm",
+      "team": "Nhóm",
+      "role": "Vai trò",
+      "technologies": "Công nghệ"
     }
   },
   "en": {
@@ -36,9 +46,9 @@
         "languages": "Languages"
       },
       "certificates": "Certificates",
-      "awards": "Awards",
       "research": "Research",
       "projects": "Projects",
+      "projectsSubtitle": "A collection of notable projects from my academic and professional journey.",
       "contact": "Contact Information"
     },
     "profile": {
@@ -48,7 +58,17 @@
         "github": "GitHub",
         "linkedin": "LinkedIn",
         "email": "Email"
-      }
+      },
+      "scrollToTop": "Back to top"
+    },
+    "common": {
+      "viewProject": "View Project",
+      "sourceCode": "Source Code",
+      "liveDemo": "Live Demo",
+      "year": "Year",
+      "team": "Team",
+      "role": "Role",
+      "technologies": "Technologies"
     }
   }
 }

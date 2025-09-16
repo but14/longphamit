@@ -2,14 +2,16 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
+import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const pathname = usePathname();
   const { language, setLanguage } = useLanguage();
   const [scrolled, setScrolled] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   // Định nghĩa các liên kết cho cả hai ngôn ngữ
   const links = {
@@ -45,12 +47,17 @@ export default function Navbar() {
   // Hiển thị ngôn ngữ hiện tại
   const languageDisplay = language === "vi" ? "EN" : "VI";
 
+  // Đóng mobile menu khi chuyển trang
+  useEffect(() => {
+    setMobileMenuOpen(false);
+  }, [pathname]);
+
   // Chỉ render khi đã mounted để tránh lỗi hydration
   if (!mounted) {
     return (
       <header className="border-b border-neutral-800/80 sticky top-0 backdrop-blur bg-neutral-950/70 z-50">
         <nav className="container max-w-6xl mx-auto flex items-center justify-between py-4 px-4">
-          <div className="font-semibold tracking-tight">PNH Long</div>
+          <div className="font-semibold tracking-tight">LEO - SWE</div>
           <div className="flex gap-1"></div>
         </nav>
       </header>
@@ -58,10 +65,10 @@ export default function Navbar() {
   }
 
   return (
-    <motion.header 
+    <motion.header
       className={`sticky top-0 z-50 border-b transition-all duration-300 ${
-        scrolled 
-          ? "border-neutral-800/80 bg-neutral-950/90 backdrop-blur-md shadow-lg" 
+        scrolled
+          ? "border-neutral-800/80 bg-neutral-950/90 backdrop-blur-md shadow-lg"
           : "border-neutral-800/50 bg-neutral-950/70 backdrop-blur"
       }`}
       initial={{ opacity: 0, y: -10 }}
@@ -74,15 +81,19 @@ export default function Navbar() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          <Link href="/" className="font-semibold tracking-tight text-lg hover:text-white transition-colors">
-            PNH Long
+          <Link
+            href="/"
+            className="font-semibold tracking-tight text-lg hover:text-white transition-colors gradient-text"
+          >
+            LEO - SWE
           </Link>
         </motion.div>
-        
-        <div className="flex items-center gap-4">
+
+        {/* Desktop Navigation */}
+        <div className="hidden md:flex items-center gap-4">
           <ul className="flex gap-3">
             {links[language].map((link, index) => (
-              <motion.li 
+              <motion.li
                 key={link.href}
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -91,8 +102,8 @@ export default function Navbar() {
                 <Link
                   href={link.href}
                   className={`px-3 py-2 rounded-lg transition-all duration-300 ${
-                    pathname === link.href 
-                      ? "bg-neutral-800/70 text-white" 
+                    pathname === link.href
+                      ? "bg-neutral-800/70 text-white"
                       : "hover:bg-neutral-800/40 text-neutral-300 hover:text-white"
                   }`}
                 >
@@ -101,7 +112,7 @@ export default function Navbar() {
               </motion.li>
             ))}
           </ul>
-          
+
           <motion.button
             onClick={toggleLanguage}
             className="ml-2 px-3 py-2 rounded-lg bg-neutral-800/50 hover:bg-neutral-700 text-neutral-200 hover:text-white transition-colors"
@@ -114,7 +125,77 @@ export default function Navbar() {
             {languageDisplay}
           </motion.button>
         </div>
+
+        {/* Mobile Menu Button */}
+        <div className="md:hidden flex items-center gap-2">
+          <motion.button
+            onClick={toggleLanguage}
+            className="px-3 py-2 rounded-lg bg-neutral-800/50 hover:bg-neutral-700 text-neutral-200 hover:text-white transition-colors"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            {languageDisplay}
+          </motion.button>
+
+          <motion.button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="p-2 rounded-lg bg-neutral-800/50 hover:bg-neutral-700 text-neutral-200 hover:text-white transition-colors"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
+          </motion.button>
+        </div>
       </nav>
+
+      {/* Mobile Menu */}
+      <AnimatePresence>
+        {mobileMenuOpen && (
+          <motion.div
+            className="md:hidden absolute top-full left-0 right-0 bg-neutral-900/95 backdrop-blur-lg border-b border-neutral-800"
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.3 }}
+          >
+            <motion.ul
+              className="container max-w-6xl mx-auto py-4 px-4 flex flex-col gap-2"
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: { opacity: 0 },
+                visible: {
+                  opacity: 1,
+                  transition: {
+                    staggerChildren: 0.1,
+                  },
+                },
+              }}
+            >
+              {links[language].map((link) => (
+                <motion.li
+                  key={link.href}
+                  variants={{
+                    hidden: { opacity: 0, x: -20 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
+                  <Link
+                    href={link.href}
+                    className={`block px-4 py-3 rounded-lg transition-all duration-300 ${
+                      pathname === link.href
+                        ? "bg-neutral-800 text-white"
+                        : "hover:bg-neutral-800/50 text-neutral-300 hover:text-white"
+                    }`}
+                  >
+                    {link.label}
+                  </Link>
+                </motion.li>
+              ))}
+            </motion.ul>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </motion.header>
   );
 }

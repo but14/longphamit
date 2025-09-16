@@ -1,48 +1,70 @@
 [
   {
     "title": "Room Booking System",
-    "description": "Nền tảng đặt phòng họp tích hợp Microsoft 365 SSO, FullCalendar, gửi email và đồng bộ Outlook.",
-    "tech": [
-      "React",
-      "Node.js",
-      "Microsoft Graph",
-      "MySQL",
-      "Vercel"
-    ],
+    "description": "Nền tảng đặt phòng họp tích hợp Microsoft 365 SSO, FullCalendar, gửi email và đồng bộ Outlook. Hệ thống giúp tối ưu hóa việc sử dụng không gian làm việc và giảm thiểu xung đột lịch trình.",
+    "tech": ["React", "Node.js", "Microsoft Graph", "MySQL", "Vercel"],
     "year": "2024–2025",
     "team": "2 người",
     "github": "",
     "link": "",
-    "image": ""
+    "image": "/images/room-booking.jpg",
+    "highlights": [
+      "Tích hợp xác thực Microsoft 365 SSO",
+      "Đồng bộ lịch Outlook tự động",
+      "Giao diện trực quan với FullCalendar",
+      "Thông báo email tự động"
+    ],
+    "category": "Enterprise"
   },
   {
     "title": "Digital V‑Card / Employee ID",
-    "description": "Hệ thống thẻ nhân viên số, QR code, tra cứu nhanh; hỗ trợ mobile app.",
-    "tech": [
-      "React",
-      "Flutter",
-      "Node.js",
-      "MySQL"
-    ],
+    "description": "Hệ thống thẻ nhân viên số, QR code, tra cứu nhanh; hỗ trợ mobile app. Giải pháp này giúp doanh nghiệp số hóa quy trình quản lý nhân sự và tăng cường trải nghiệm nhân viên.",
+    "tech": ["React", "Flutter", "Node.js", "MySQL"],
     "year": "2024",
     "team": "3 người",
     "github": "",
     "link": "",
-    "image": ""
+    "image": "/images/vcard.png",
+    "highlights": [
+      "Tạo QR code động theo thông tin nhân viên",
+      "Ứng dụng di động cho iOS và Android",
+      "Tích hợp với hệ thống HR",
+      "Thống kê và báo cáo chi tiết"
+    ],
+    "category": "Mobile & Web"
   },
   {
     "title": "Schedule Calendar System",
-    "description": "Quản lý lịch làm việc của lãnh đạo, đồng bộ email thông báo tự động.",
-    "tech": [
-      "React",
-      "Node.js",
-      "MUI",
-      "Graph API"
-    ],
+    "description": "Quản lý lịch làm việc của lãnh đạo, đồng bộ email thông báo tự động. Hệ thống giúp tối ưu hóa thời gian và nâng cao hiệu quả làm việc của đội ngũ quản lý cấp cao.",
+    "tech": ["React", "Node.js", "MUI", "Graph API"],
     "year": "2023–2024",
     "team": "Cá nhân",
     "github": "",
     "link": "",
-    "image": ""
+    "image": "/images/calendar.png",
+    "highlights": [
+      "Giao diện trực quan, dễ sử dụng",
+      "Thông báo tự động qua email",
+      "Tích hợp với Microsoft 365",
+      "Báo cáo thống kê thời gian"
+    ],
+    "category": "Enterprise"
+  },
+  {
+    "title": "E-Learning Platform",
+    "description": "Nền tảng học trực tuyến nội bộ cho doanh nghiệp với các tính năng quản lý khóa học, theo dõi tiến độ và đánh giá năng lực nhân viên.",
+    "tech": ["PHP", "Moodle", "MySQL", "JavaScript"],
+    "year": "2023",
+    "team": "2 người",
+    "github": "",
+    "link": "",
+    "image": "/images/elearning.png",
+    "highlights": [
+      "Tùy chỉnh giao diện Moodle",
+      "Tích hợp hệ thống đánh giá năng lực",
+      "Báo cáo tiến độ học tập",
+      "Hỗ trợ nhiều định dạng học liệu"
+    ],
+    "category": "Education"
   }
 ]

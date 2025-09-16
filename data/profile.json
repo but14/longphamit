@@ -268,16 +268,6 @@
       "en": "Google Certificate of Completion – Elements of AIs"
     }
   ],
-  "awards": [
-    {
-      "vi": "Top 5 Hackathon trường 2023",
-      "en": "Top 5 University Hackathon 2023"
-    },
-    {
-      "vi": "Sinh viên Nghiên cứu Khoa học cấp Khoa",
-      "en": "Faculty-level Research Student Award"
-    }
-  ],
   "research": [
     {
       "title": {
@@ -305,8 +295,8 @@
     }
   ],
   "contacts": {
-    "github": "https://github.com/your-username",
-    "linkedin": "https://www.linkedin.com/in/your-username",
-    "email": "you@example.com"
+    "github": "https://github.com/but14",
+    "linkedin": "https://www.linkedin.com/in/long-pham-it/",
+    "email": "longpnh14@gmail.com"
   }
 }
