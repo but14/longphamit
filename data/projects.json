@@ -1,70 +1,204 @@
 [
   {
-    "title": "Room Booking System",
-    "description": "Nền tảng đặt phòng họp tích hợp Microsoft 365 SSO, FullCalendar, gửi email và đồng bộ Outlook. Hệ thống giúp tối ưu hóa việc sử dụng không gian làm việc và giảm thiểu xung đột lịch trình.",
+    "title": {
+      "vi": "Hệ thống quét CCCD nhân viên",
+      "en": "Employee ID Scanning System"
+    },
+    "description": {
+      "vi": "Ứng dụng di động quét CCCD công nhân nhà máy, tự động tải dữ liệu lên cổng HR tập trung. Đẩy nhanh quy trình nhập và xác minh nhân sự lên 60%, đảm bảo truy cập chính xác, theo thời gian thực vào hồ sơ nhân viên. Được thiết kế để tích hợp với hệ thống HRM của toàn tập đoàn trong tương lai.",
+      "en": "Mobile application for scanning Vietnamese citizen ID cards of factory workers, with data automatically uploaded to a centralized HR portal. Accelerated HR onboarding and verification process by 60%, ensuring accurate, real-time access to employee records. Designed for future integration with the corporation's HRM system."
+    },
+    "tech": [
+      "Flutter",
+      "ReactJS",
+      "ExpressJS",
+      "REST API",
+      "Material UI",
+      "MySQL"
+    ],
+    "year": "2025",
+    "team": "3 người",
+    "github": "",
+    "link": "",
+    "image": "/images/id-scanning.jpg",
+    "highlights": [
+      {
+        "vi": "Quét và xử lý CCCD tự động",
+        "en": "Automatic ID card scanning and processing"
+      },
+      {
+        "vi": "Tích hợp với hệ thống HRM tập đoàn",
+        "en": "Integration with corporate HRM system"
+      },
+      {
+        "vi": "Đẩy nhanh quy trình nhân sự 60%",
+        "en": "60% faster HR onboarding process"
+      },
+      {
+        "vi": "Truy cập dữ liệu theo thời gian thực",
+        "en": "Real-time data access and reporting"
+      }
+    ],
+    "category": "Mobile & Enterprise",
+    "role": {
+      "vi": "Fullstack Developer",
+      "en": "Fullstack Developer"
+    }
+  },
+  {
+    "title": {
+      "vi": "Hệ thống đặt phòng họp",
+      "en": "Room Booking System"
+    },
+    "description": {
+      "vi": "Nền tảng đặt phòng họp tích hợp Microsoft 365 SSO, FullCalendar, gửi email và đồng bộ Outlook. Hệ thống giúp tối ưu hóa việc sử dụng không gian làm việc và giảm thiểu xung đột lịch trình.",
+      "en": "Meeting room booking platform with Microsoft 365 SSO integration, FullCalendar, email notifications and Outlook synchronization. The system helps optimize workspace utilization and minimize scheduling conflicts."
+    },
     "tech": ["React", "Node.js", "Microsoft Graph", "MySQL", "Vercel"],
-    "year": "2024–2025",
+    "year": "2025",
     "team": "2 người",
     "github": "",
     "link": "",
     "image": "/images/room-booking.jpg",
     "highlights": [
-      "Tích hợp xác thực Microsoft 365 SSO",
-      "Đồng bộ lịch Outlook tự động",
-      "Giao diện trực quan với FullCalendar",
-      "Thông báo email tự động"
+      {
+        "vi": "Tích hợp xác thực Microsoft 365 SSO",
+        "en": "Microsoft 365 SSO authentication integration"
+      },
+      {
+        "vi": "Đồng bộ lịch Outlook tự động",
+        "en": "Automatic Outlook calendar synchronization"
+      },
+      {
+        "vi": "Giao diện trực quan với FullCalendar",
+        "en": "Intuitive interface with FullCalendar"
+      },
+      {
+        "vi": "Thông báo email tự động",
+        "en": "Automated email notifications"
+      }
     ],
-    "category": "Enterprise"
+    "category": "Enterprise",
+    "role": {
+      "vi": "Fullstack Developer",
+      "en": "Fullstack Developer"
+    }
   },
   {
-    "title": "Digital V‑Card / Employee ID",
-    "description": "Hệ thống thẻ nhân viên số, QR code, tra cứu nhanh; hỗ trợ mobile app. Giải pháp này giúp doanh nghiệp số hóa quy trình quản lý nhân sự và tăng cường trải nghiệm nhân viên.",
+    "title": {
+      "vi": "Hệ thống V-Card số",
+      "en": "Digital V‑Card System"
+    },
+    "description": {
+      "vi": "Hệ thống thẻ nhân viên số, QR code, tra cứu nhanh; hỗ trợ mobile app. Giải pháp này giúp doanh nghiệp số hóa quy trình quản lý nhân sự và tăng cường trải nghiệm nhân viên.",
+      "en": "Digital employee card system with QR codes and quick lookup; supports mobile app. This solution helps businesses digitize HR management processes and enhance employee experience."
+    },
     "tech": ["React", "Flutter", "Node.js", "MySQL"],
-    "year": "2024",
+    "year": "2025",
     "team": "3 người",
     "github": "",
     "link": "",
     "image": "/images/vcard.png",
     "highlights": [
-      "Tạo QR code động theo thông tin nhân viên",
-      "Ứng dụng di động cho iOS và Android",
-      "Tích hợp với hệ thống HR",
-      "Thống kê và báo cáo chi tiết"
+      {
+        "vi": "Tạo QR code động theo thông tin nhân viên",
+        "en": "Dynamic QR code generation based on employee information"
+      },
+      {
+        "vi": "Ứng dụng di động cho iOS và Android",
+        "en": "Mobile application for iOS and Android"
+      },
+      {
+        "vi": "Tích hợp với hệ thống HR",
+        "en": "Integration with HR systems"
+      },
+      {
+        "vi": "Thống kê và báo cáo chi tiết",
+        "en": "Detailed statistics and reporting"
+      }
     ],
-    "category": "Mobile & Web"
+    "category": "Mobile & Web",
+    "role": {
+      "vi": "Fullstack Developer",
+      "en": "Fullstack Developer"
+    }
   },
   {
-    "title": "Schedule Calendar System",
-    "description": "Quản lý lịch làm việc của lãnh đạo, đồng bộ email thông báo tự động. Hệ thống giúp tối ưu hóa thời gian và nâng cao hiệu quả làm việc của đội ngũ quản lý cấp cao.",
+    "title": {
+      "vi": "Hệ thống Lịch trình",
+      "en": "Schedule Calendar System"
+    },
+    "description": {
+      "vi": "Quản lý lịch làm việc của lãnh đạo, đồng bộ email thông báo tự động. Hệ thống giúp tối ưu hóa thời gian và nâng cao hiệu quả làm việc của đội ngũ quản lý cấp cao.",
+      "en": "Management of executive work schedules with automatic email notification synchronization. The system helps optimize time and improve the efficiency of senior management teams."
+    },
     "tech": ["React", "Node.js", "MUI", "Graph API"],
-    "year": "2023–2024",
+    "year": "2025",
     "team": "Cá nhân",
     "github": "",
     "link": "",
     "image": "/images/calendar.png",
     "highlights": [
-      "Giao diện trực quan, dễ sử dụng",
-      "Thông báo tự động qua email",
-      "Tích hợp với Microsoft 365",
-      "Báo cáo thống kê thời gian"
+      {
+        "vi": "Giao diện trực quan, dễ sử dụng",
+        "en": "Intuitive, user-friendly interface"
+      },
+      {
+        "vi": "Thông báo tự động qua email",
+        "en": "Automatic email notifications"
+      },
+      {
+        "vi": "Tích hợp với Microsoft 365",
+        "en": "Microsoft 365 integration"
+      },
+      {
+        "vi": "Báo cáo thống kê thời gian",
+        "en": "Time statistics reporting"
+      }
     ],
-    "category": "Enterprise"
+    "category": "Enterprise",
+    "role": {
+      "vi": "Fullstack Developer",
+      "en": "Fullstack Developer"
+    }
   },
   {
-    "title": "E-Learning Platform",
-    "description": "Nền tảng học trực tuyến nội bộ cho doanh nghiệp với các tính năng quản lý khóa học, theo dõi tiến độ và đánh giá năng lực nhân viên.",
+    "title": {
+      "vi": "Nền tảng E-Learning",
+      "en": "E-Learning Platform"
+    },
+    "description": {
+      "vi": "Nền tảng học trực tuyến nội bộ cho doanh nghiệp với các tính năng quản lý khóa học, theo dõi tiến độ và đánh giá năng lực nhân viên.",
+      "en": "Internal online learning platform for businesses with course management features, progress tracking, and employee competency assessment."
+    },
     "tech": ["PHP", "Moodle", "MySQL", "JavaScript"],
-    "year": "2023",
+    "year": "2025",
     "team": "2 người",
     "github": "",
     "link": "",
     "image": "/images/elearning.png",
     "highlights": [
-      "Tùy chỉnh giao diện Moodle",
-      "Tích hợp hệ thống đánh giá năng lực",
-      "Báo cáo tiến độ học tập",
-      "Hỗ trợ nhiều định dạng học liệu"
+      {
+        "vi": "Tùy chỉnh giao diện Moodle",
+        "en": "Customized Moodle interface"
+      },
+      {
+        "vi": "Tích hợp hệ thống đánh giá năng lực",
+        "en": "Integrated competency assessment system"
+      },
+      {
+        "vi": "Báo cáo tiến độ học tập",
+        "en": "Learning progress reports"
+      },
+      {
+        "vi": "Hỗ trợ nhiều định dạng học liệu",
+        "en": "Support for multiple learning material formats"
+      }
     ],
-    "category": "Education"
+    "category": "Education",
+    "role": {
+      "vi": "Fullstack Developer",
+      "en": "Fullstack Developer"
+    }
   }
 ]

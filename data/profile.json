@@ -115,8 +115,8 @@
           },
           "tech": "Flutter (Mobile App), ReactJS, ExpressJS, REST API, Material UI, MySQL",
           "achievements": {
-            "vi": "Xây dựng ứng dụng di động để quét CCCD của công nhân nhà máy, với dữ liệu tự động tải lên cổng HR tập trung. Đẩy nhanh quy trình nhập và xác minh nhân sự lên 60%, đảm bảo truy cập chính xác, theo thời gian thực vào hồ sơ nhân viên cho phòng nhân sự.",
-            "en": "Built a mobile application for scanning Vietnamese citizen ID cards of factory workers, with data automatically uploaded to a centralized HR portal. Accelerated HR onboarding and verification process by 60%, ensuring accurate, real-time access to employee records for the HR department."
+            "vi": "Xây dựng ứng dụng di động để quét CCCD của công nhân nhà máy, với dữ liệu tự động tải lên cổng HR tập trung. Đẩy nhanh quy trình nhập và xác minh nhân sự lên 60%, đảm bảo truy cập chính xác, theo thời gian thực vào hồ sơ nhân viên cho phòng nhân sự. Được thiết kế để tích hợp với hệ thống HRM của toàn tập đoàn trong tương lai, hỗ trợ đồng bộ hóa dữ liệu liền mạch và quản lý nhân sự tập trung.",
+            "en": "Built a mobile application for scanning Vietnamese citizen ID cards of factory workers, with data automatically uploaded to a centralized HR portal. Accelerated HR onboarding and verification process by 60%, ensuring accurate, real-time access to employee records for the HR department. Designed for future integration with the corporation's HRM system, supporting seamless data synchronization and centralized personnel management."
           }
         }
       ]

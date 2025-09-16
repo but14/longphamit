@@ -22,9 +22,15 @@ export default function ProjectCard({ project }: { project: any }) {
 
     return value;
   };
+  
+  // Hàm lấy giá trị theo ngôn ngữ
+  const getLocalizedValue = (value: any) => {
+    if (!value) return "";
+    return typeof value === "object" && value[language] ? value[language] : value;
+  };
 
   // Placeholder image nếu không có hình ảnh dự án
-  const placeholderImage = "/images/project-placeholder.jpg";
+  const placeholderImage = "/images/project-placeholder.svg";
   
   return (
     <motion.article 
@@ -45,7 +51,7 @@ export default function ProjectCard({ project }: { project: any }) {
         >
           <Image 
             src={project.image || placeholderImage} 
-            alt={project.title} 
+            alt={getLocalizedValue(project.title)} 
             fill 
             sizes="(max-width: 768px) 100vw, 50vw" 
             className="object-cover transition-transform duration-500" 
@@ -68,20 +74,23 @@ export default function ProjectCard({ project }: { project: any }) {
           
           {/* Project title overlay */}
           <div className="absolute bottom-0 left-0 right-0 p-6 z-10">
-            <h3 className="text-xl font-semibold text-white">{project.title}</h3>
+            <h3 className="text-xl font-semibold text-white">{getLocalizedValue(project.title)}</h3>
+            {project.role && (
+              <p className="text-sm text-blue-300 mt-1">{getLocalizedValue(project.role)}</p>
+            )}
           </div>
         </motion.div>
       </div>
       
       <div className="p-6 space-y-4 flex-grow flex flex-col">
-        <p className="text-neutral-300 flex-grow">{project.description}</p>
+        <p className="text-neutral-300 flex-grow">{getLocalizedValue(project.description)}</p>
         
         {/* Project highlights */}
         {project.highlights && project.highlights.length > 0 && (
           <div className="space-y-2">
             <h4 className="text-sm font-medium text-neutral-200">Highlights:</h4>
             <ul className="grid grid-cols-2 gap-2">
-              {project.highlights.map((highlight: string, i: number) => (
+              {project.highlights.map((highlight: any, i: number) => (
                 <motion.li 
                   key={i} 
                   className="text-xs flex items-start gap-1 text-neutral-400"
@@ -91,7 +100,7 @@ export default function ProjectCard({ project }: { project: any }) {
                   viewport={{ once: true }}
                 >
                   <ChevronRight size={12} className="mt-1 text-blue-400 flex-shrink-0" />
-                  <span>{highlight}</span>
+                  <span>{typeof highlight === 'object' ? getLocalizedValue(highlight) : highlight}</span>
                 </motion.li>
               ))}
             </ul>
@@ -105,7 +114,7 @@ export default function ProjectCard({ project }: { project: any }) {
           transition={{ staggerChildren: 0.1 }}
           viewport={{ once: true }}
         >
-          {project.tech?.map((t: string, i: number) => (
+          {project.tech?.map((tech: string, i: number) => (
             <motion.li 
               key={i} 
               className="text-xs bg-neutral-800 px-2 py-1 rounded-md border border-neutral-700 hover:border-blue-500/50 hover:bg-neutral-700 transition-colors"
@@ -114,7 +123,7 @@ export default function ProjectCard({ project }: { project: any }) {
               transition={{ delay: i * 0.05 }}
               viewport={{ once: true }}
             >
-              {t}
+              {tech}
             </motion.li>
           ))}
         </motion.ul>
