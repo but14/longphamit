@@ -271,26 +271,14 @@
   "research": [
     {
       "title": {
-        "vi": "Hệ thống giám sát phòng họp tích hợp M365",
-        "en": "M365 Integrated Meeting Room Monitoring System"
+        "vi": "Website học tập các môn lập trình cho khoa Công nghệ thông tin",
+        "en": "E-learning website for programming subjects in the Faculty of Information Technology"
       },
       "venue": {
-        "vi": "Hội thảo ABC",
-        "en": "ABC Conference"
+        "vi": "Khoa Công nghệ thông tin, Học viện Hàng không Việt Nam",
+        "en": "Faculty of Information Technology"
       },
       "year": 2024,
-      "link": ""
-    },
-    {
-      "title": {
-        "vi": "Tối ưu hóa pipeline dữ liệu cho IoT",
-        "en": "Optimization of Data Pipelines for IoT"
-      },
-      "venue": {
-        "vi": "Tạp chí XYZ",
-        "en": "XYZ Journal"
-      },
-      "year": 2023,
       "link": ""
     }
   ],
