@@ -1,15 +1,27 @@
 "use client";
 import { motion } from "framer-motion";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface TimelineItemProps {
   title: string;
   subtitle: string;
-  period: string;
+  period: any; // Có thể là string hoặc đối tượng {vi, en}
   description: string;
   isLast?: boolean;
 }
 
 export function TimelineItem({ title, subtitle, period, description, isLast = false }: TimelineItemProps) {
+  const { language } = useLanguage();
+  
+  // Hàm lấy giá trị theo ngôn ngữ
+  const getLocalizedValue = (value: any) => {
+    if (!value) return "";
+    return typeof value === "object" && value[language] ? value[language] : value;
+  };
+
+  // Lấy giá trị period theo ngôn ngữ hiện tại
+  const localizedPeriod = getLocalizedValue(period);
+  
   return (
     <motion.div 
       className="relative pl-8"
@@ -49,7 +61,7 @@ export function TimelineItem({ title, subtitle, period, description, isLast = fa
             <h3 className="font-semibold text-lg">{title}</h3>
             <p className="text-neutral-300">{subtitle}</p>
           </div>
-          <span className="text-sm bg-neutral-800/70 px-3 py-1 rounded-full text-neutral-400">{period}</span>
+          <span className="text-sm bg-neutral-800/70 px-3 py-1 rounded-full text-neutral-400">{localizedPeriod}</span>
         </div>
         <p className="text-neutral-300">{description}</p>
       </motion.div>
@@ -61,7 +73,7 @@ interface TimelineProps {
   items: {
     title: string;
     subtitle: string;
-    period: string;
+    period: any; // Có thể là string hoặc đối tượng {vi, en}
     description: string;
   }[];
 }

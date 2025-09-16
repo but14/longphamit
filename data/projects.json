@@ -54,7 +54,16 @@
       "vi": "Nền tảng đặt phòng họp tích hợp Microsoft 365 SSO, FullCalendar, gửi email và đồng bộ Outlook. Hệ thống giúp tối ưu hóa việc sử dụng không gian làm việc và giảm thiểu xung đột lịch trình.",
       "en": "Meeting room booking platform with Microsoft 365 SSO integration, FullCalendar, email notifications and Outlook synchronization. The system helps optimize workspace utilization and minimize scheduling conflicts."
     },
-    "tech": ["React", "Node.js", "Microsoft Graph", "MySQL", "Vercel"],
+    "tech": [
+      "ReactJS",
+      "Node.js",
+      "ExpressJS",
+      "REST API",
+      "Microsoft Graph",
+      "MySQL",
+      "Material UI",
+      "Azure"
+    ],
     "year": "2025",
     "team": "2 người",
     "github": "",
@@ -86,14 +95,14 @@
   },
   {
     "title": {
-      "vi": "Hệ thống V-Card số",
+      "vi": "Hệ thống V-Card",
       "en": "Digital V‑Card System"
     },
     "description": {
       "vi": "Hệ thống thẻ nhân viên số, QR code, tra cứu nhanh; hỗ trợ mobile app. Giải pháp này giúp doanh nghiệp số hóa quy trình quản lý nhân sự và tăng cường trải nghiệm nhân viên.",
       "en": "Digital employee card system with QR codes and quick lookup; supports mobile app. This solution helps businesses digitize HR management processes and enhance employee experience."
     },
-    "tech": ["React", "Flutter", "Node.js", "MySQL"],
+    "tech": ["PHP", "Laravel 11", "Bootstrap", "JQuery", "Docker", "MySQL"],
     "year": "2025",
     "team": "3 người",
     "github": "",
@@ -132,7 +141,16 @@
       "vi": "Quản lý lịch làm việc của lãnh đạo, đồng bộ email thông báo tự động. Hệ thống giúp tối ưu hóa thời gian và nâng cao hiệu quả làm việc của đội ngũ quản lý cấp cao.",
       "en": "Management of executive work schedules with automatic email notification synchronization. The system helps optimize time and improve the efficiency of senior management teams."
     },
-    "tech": ["React", "Node.js", "MUI", "Graph API"],
+    "tech": [
+      "ReactJS",
+      "Node.js",
+      "ExpressJS",
+      "REST API",
+      "MUI",
+      "Microsoft Graph",
+      "Azure",
+      "MySQL"
+    ],
     "year": "2025",
     "team": "Cá nhân",
     "github": "",
@@ -171,7 +189,15 @@
       "vi": "Nền tảng học trực tuyến nội bộ cho doanh nghiệp với các tính năng quản lý khóa học, theo dõi tiến độ và đánh giá năng lực nhân viên.",
       "en": "Internal online learning platform for businesses with course management features, progress tracking, and employee competency assessment."
     },
-    "tech": ["PHP", "Moodle", "MySQL", "JavaScript"],
+    "tech": [
+      "PHP",
+      "Moodle",
+      "MySQL",
+      "JavaScript",
+      "Microsoft Graph",
+      "Azure",
+      "Edwiser RenUI"
+    ],
     "year": "2025",
     "team": "2 người",
     "github": "",
@@ -199,6 +225,49 @@
     "role": {
       "vi": "Fullstack Developer",
       "en": "Fullstack Developer"
+    }
+  },
+  {
+    "title": {
+      "vi": "Phần mềm Quản lý mua hàng",
+      "en": "E-Procurement Management Software"
+    },
+    "description": {
+      "vi": "Đóng vai trò Project Assistant và Business Analyst trong dự án Phần mềm Quản lý mua hàng (E-Procurement Management Software). Tham gia vào việc thu thập yêu cầu, phân tích nghiệp vụ, xây dựng tài liệu đặc tả, phối hợp với nhà cung cấp để triển khai các tính năng như quản lý yêu cầu mua hàng, quy trình phê duyệt, theo dõi nhà cung cấp và quản lý hợp đồng.",
+      "en": "Served as Project Assistant and Business Analyst in the E-Procurement Management Software project. Responsible for gathering requirements, conducting business analysis, preparing specification documents, and coordinating with vendors to implement key features such as purchase requisition management, approval workflows, supplier tracking, and contract management."
+    },
+    "tech": ["C#", ".NET Core", "SQLServer", "Power BI", "Jira"],
+    "year": "2025",
+    "team": "3 người",
+    "github": "",
+    "link": "",
+    "image": "/images/epro.jpg",
+    "highlights": [
+      {
+        "vi": "Quản lý yêu cầu mua hàng",
+        "en": "Purchase requisition management"
+      },
+      {
+        "vi": "Quy trình phê duyệt đa cấp",
+        "en": "Multi-level approval workflow"
+      },
+      {
+        "vi": "Theo dõi và đánh giá nhà cung cấp",
+        "en": "Supplier tracking and evaluation"
+      },
+      {
+        "vi": "Quản lý hợp đồng mua sắm",
+        "en": "Procurement contract management"
+      },
+      {
+        "vi": "Báo cáo chi phí và hiệu quả",
+        "en": "Cost and performance reporting"
+      }
+    ],
+    "category": "Education",
+    "role": {
+      "vi": "Project Assistant + Business Analyst (BA)",
+      "en": "Project Assistant + Business Analyst (BA)"
     }
   }
 ]

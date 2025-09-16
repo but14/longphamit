@@ -60,7 +60,7 @@ export default function Home() {
   const experienceItems = profile.experience.map(exp => ({
     title: getProfileValue(exp.position),
     subtitle: getProfileValue(exp.company),
-    period: exp.period,
+    period: exp.period, // Giữ nguyên đối tượng period, component Timeline sẽ xử lý
     description: getProfileValue(exp.description)
   }));
 

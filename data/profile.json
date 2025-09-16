@@ -38,7 +38,10 @@
         "vi": "Kỹ sư phần mềm",
         "en": "Software Engineer"
       },
-      "period": "03/2025 - Hiện tại",
+      "period": {
+        "vi": "03/2025 - Hiện tại",
+        "en": "03/2025 - Present"
+      },
       "description": {
         "vi": "Phát triển nhiều dự án quan trọng cho công ty, bao gồm website doanh nghiệp, nền tảng e-Learning, hệ thống quản lý lịch trình, hệ thống V-Card trực tuyến và ứng dụng quét CCCD.",
         "en": "Developed multiple key projects for the company, including corporate websites, e-Learning platform, schedule management system, online V-Card system, and ID scanning application."
@@ -130,7 +133,10 @@
         "vi": "Giáo viên Công nghệ",
         "en": "Technology Instructor"
       },
-      "period": "09/2025 - Hiện tại",
+      "period": {
+        "vi": "09/2025 - Hiện tại",
+        "en": "09/2025 - Present"
+      },
       "description": {
         "vi": "Giảng dạy các khóa học về lập trình và công nghệ cho học viên. Thiết kế giáo án và tài liệu học tập, hướng dẫn học viên thực hiện các dự án thực tế, và đánh giá sự tiến bộ của học viên.",
         "en": "Teaching programming and technology courses to students. Designing lesson plans and learning materials, guiding students through practical projects, and evaluating student progress."
@@ -145,7 +151,10 @@
         "vi": "Python Developer",
         "en": "Python Developer"
       },
-      "period": "10/2024 - 12/2024",
+      "period": {
+        "vi": "10/2024 - 12/2024",
+        "en": "10/2024 - 12/2024"
+      },
       "description": {
         "vi": "Phát triển các script Python để tự động hóa các tác vụ lặp lại như nhập dữ liệu, tạo báo cáo, gửi email và quản lý tệp. Xây dựng API hoặc bot để tích hợp với CRM, ERP, Google Sheets, Slack và các nền tảng kinh doanh khác. Phát triển công cụ xử lý dữ liệu, trực quan hóa và phân tích để trích xuất thông tin có ý nghĩa, dự báo xu hướng kinh doanh và tối ưu hóa quy trình hoạt động. Thiết kế và xây dựng các module mở rộng tùy chỉnh theo yêu cầu của khách hàng.",
         "en": "Develop Python scripts to automate repetitive tasks such as data entry, report generation, email dispatching, and file management. Build APIs or bots to integrate with CRM, ERP, Google Sheets, Slack, and other business platforms. Develop tools for data processing, visualization, and analytics to extract meaningful insights, forecast business trends, and optimize operational workflows. Design and build custom extension modules as per customer requirements."
@@ -161,7 +170,10 @@
         "vi": "Giáo viên Công nghệ ",
         "en": "Technology Instructor"
       },
-      "period": "10/2023 - 08/2025",
+      "period": {
+        "vi": "10/2023 - 08/2025",
+        "en": "10/2023 - 08/2025"
+      },
       "description": {
         "vi": "Giảng dạy các khóa học về lập trình, robotics và công nghệ cho học sinh. Hướng dẫn học sinh thực hiện các dự án thực tế và phát triển kỹ năng giải quyết vấn đề.",
         "en": "Teaching programming, robotics, and technology courses to students. Guiding students through practical projects and developing problem-solving skills."
@@ -179,6 +191,9 @@
           "React",
           "Next.js",
           "TypeScript",
+          "JavaScript",
+          "Vue.js",
+          "Angular",
           "Tailwind CSS",
           "HTML/CSS",
           "Bootstrap",
@@ -199,7 +214,8 @@
           "ASP.NET Core",
           "REST API",
           "GraphQL",
-          "Python"
+          "Python",
+          "Flask"
         ]
       },
       {
@@ -227,7 +243,12 @@
           "Flutter",
           "Microservices",
           "Pandas",
-          "TensorFlow"
+          "TensorFlow",
+          "Odoo",
+          "Adobe Photoshop",
+          "Adobe Illustrator",
+          "Figma",
+          "SonarQube Testing"
         ]
       }
     ],
@@ -248,8 +269,8 @@
           "en": "English"
         },
         "level": {
-          "vi": "Thành thạo",
-          "en": "Proficient"
+          "vi": "Trung cấp",
+          "en": "Intermediate"
         }
       }
     ]
