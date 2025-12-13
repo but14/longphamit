@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { motion, AnimatePresence } from "framer-motion";
@@ -57,7 +58,7 @@ export default function Navbar() {
     return (
       <header className="border-b border-neutral-800/80 sticky top-0 backdrop-blur bg-neutral-950/70 z-50">
         <nav className="container max-w-6xl mx-auto flex items-center justify-between py-4 px-4">
-          <div className="font-semibold tracking-tight">LEO - SWE</div>
+          <Image src="/images/logo.png" alt="Logo" width={40} height={40} className="object-contain" />
           <div className="flex gap-1"></div>
         </nav>
       </header>
@@ -83,9 +84,9 @@ export default function Navbar() {
         >
           <Link
             href="/"
-            className="font-semibold tracking-tight text-lg hover:text-white transition-colors gradient-text"
+            className="hover:opacity-80 transition-opacity"
           >
-            LEO - SWE
+            <Image src="/images/logo.png" alt="Logo" width={80} height={80} className="object-contain" />
           </Link>
         </motion.div>
 
