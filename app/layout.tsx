@@ -30,7 +30,7 @@ export const metadata = {
     images: ['/images/og-image.jpg'],
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: '/images/icon.png',
   }
 };
 
