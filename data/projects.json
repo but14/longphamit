@@ -17,7 +17,10 @@
       "MySQL"
     ],
     "year": "2025",
-    "team": "3 người",
+    "team": {
+      "vi": "3 thành viên",
+      "en": "3 members"
+    },
     "github": "",
     "link": "",
     "image": "/images/id-scanning.jpg",
@@ -39,12 +42,226 @@
         "en": "Real-time data access and reporting"
       }
     ],
-    "category": "Mobile & Enterprise",
+    "category": "Mobile",
     "role": {
       "vi": "Fullstack Developer",
       "en": "Fullstack Developer"
     }
   },
+  {
+  "title": {
+    "vi": "Nền tảng ERP & Hệ sinh thái Quản trị Doanh nghiệp",
+    "en": "Enterprise ERP & Digital Management Platform"
+  },
+  "description": {
+    "vi": "Nền tảng ERP được thiết kế như một hệ sinh thái phần mềm quản trị doanh nghiệp tập trung, đóng vai trò tích hợp và điều phối các hệ thống chuyển đổi số nội bộ trên một kiến trúc thống nhất. Giải pháp cho phép hợp nhất các phân hệ như nhân sự, công việc, phê duyệt, quản lý dữ liệu và quy trình vận hành vào một nền tảng duy nhất, giúp chuẩn hóa quản trị, tăng khả năng kiểm soát và tạo nền móng mở rộng để tích hợp các hệ thống cấp tập đoàn như HRM, SAP và các nền tảng số khác trong tương lai.",
+    "en": "An ERP platform architected as a centralized enterprise digital ecosystem, acting as an integration and orchestration layer for multiple internal digital transformation systems. The platform consolidates HR, task management, approval workflows, data governance, and operational processes into a unified architecture, enabling standardized management, improved control, and a scalable foundation for future integration with enterprise-grade systems such as HRM, SAP, and other digital platforms."
+  },
+  "tech": [
+    ".NET Core",
+    "Next.js",
+    "PostgreSQL",
+    "Entity Framework",
+    "RESTful API",
+    "Microsoft 365 SSO",
+    "Role-Based Access Control",
+    "Redux",
+    "Clean Architecture",
+    "Docker"
+  ],
+  "year": "2025–2026",
+  "team": {
+    "vi": "6 thành viên",
+    "en": "6 members"
+  },
+  "github": "",
+  "link": "",
+  "image": "/images/internal-erp.png",
+  "highlights": [
+    {
+      "vi": "Xây dựng nền tảng ERP theo mô hình hệ sinh thái quản trị doanh nghiệp",
+      "en": "Designed as an enterprise-wide ERP and digital management ecosystem"
+    },
+    {
+      "vi": "Đóng vai trò lớp tích hợp và điều phối cho các hệ thống chuyển đổi số nội bộ",
+      "en": "Acts as an integration and orchestration layer for internal digital systems"
+    },
+    {
+      "vi": "Chuẩn hóa quản trị người dùng, phân quyền và quy trình trên toàn doanh nghiệp",
+      "en": "Standardized enterprise-wide user management, RBAC, and workflows"
+    },
+    {
+      "vi": "Kiến trúc mở, sẵn sàng tích hợp SAP, HRM và các nền tảng cấp tập đoàn",
+      "en": "Open architecture ready for SAP, HRM, and enterprise platform integrations"
+    }
+  ],
+  "category": "Enterprise Platform",
+  "role": {
+    "vi": "Fullstack Developer / ERP Platform Engineer",
+    "en": "Fullstack Developer / ERP Platform Engineer"
+  }
+},
+{
+  "title": {
+    "vi": "Hệ thống Quản lý Văn bản & Quy trình",
+    "en": "Document & Process Management System"
+  },
+  "description": {
+    "vi": "Nền tảng quản lý tài liệu và quy trình nội bộ cho phép lưu trữ, phân loại, tìm kiếm và kiểm soát phiên bản các SOP, quy trình nghiệp vụ và tài liệu chuẩn. Hệ thống hỗ trợ phân quyền chi tiết, đảm bảo tuân thủ và xây dựng nền tảng quản trị tri thức doanh nghiệp.",
+    "en": "A document and process management platform enabling structured storage, classification, search, and version control for SOPs and business procedures. The system enforces access control, compliance, and enterprise knowledge governance."
+  },
+  "tech": [
+    ".NET Core",
+    "Next.js",
+    "PostgreSQL",
+    "Entity Framework",
+    "RESTful API",
+    "Microsoft 365 SSO",
+    "Role-Based Access Control",
+    "Redux",
+    "Clean Architecture",
+    "Docker"
+  ],
+  "year": "2025-2026",
+  "team": {
+    "vi": "5 thành viên",
+    "en": "5 members"
+  },
+  "github": "",
+  "link": "",
+  "image": "/images/document-management.png",
+  "highlights": [
+    {
+      "vi": "Quản lý tài liệu theo cấu trúc cây và phiên bản",
+      "en": "Tree-based document structure with version control"
+    },
+    {
+      "vi": "Phân quyền truy cập theo vai trò và phòng ban",
+      "en": "Role- and department-based access control"
+    },
+    {
+      "vi": "Hỗ trợ SOP, quy trình ERP và tài liệu ISO",
+      "en": "Support for SOPs, ERP processes, and ISO documentation"
+    },
+    {
+      "vi": "Nâng cao tuân thủ và quản trị tri thức doanh nghiệp",
+      "en": "Enhanced compliance and enterprise knowledge governance"
+    }
+  ],
+  "category": "Enterprise Platform",
+  "role": {
+    "vi": "Fullstack Developer",
+    "en": "Fullstack Developer"
+  }
+},
+{
+  "title": {
+    "vi": "Hệ thống Quản lý Issue",
+    "en": "Issue Management System"
+  },
+  "description": {
+    "vi": "Hệ thống quản lý issue và incident phục vụ đội IT và các phòng ban, cho phép ghi nhận, phân loại, theo dõi và xử lý sự cố theo quy trình chuẩn. Giải pháp giúp cải thiện chất lượng hỗ trợ nội bộ, kiểm soát SLA và nâng cao trải nghiệm người dùng doanh nghiệp.",
+    "en": "An internal issue and incident management system enabling structured logging, classification, tracking, and resolution of operational and IT issues. The platform improves internal support quality, SLA control, and user experience."
+  },
+  "tech": [
+    ".NET Core",
+    "Next.js",
+    "PostgreSQL",
+    "Entity Framework",
+    "RESTful API",
+    "Microsoft 365 SSO",
+    "Role-Based Access Control",
+    "Redux",
+    "Clean Architecture",
+    "Docker"
+  ],
+  "year": "2025",
+  "team": {
+    "vi": "2 thành viên",
+    "en": "2 members"
+  },
+  "github": "",
+  "link": "",
+  "image": "/images/issue-management.png",
+  "highlights": [
+    {
+      "vi": "Quản lý issue theo vòng đời tiêu chuẩn",
+      "en": "Standardized issue lifecycle management"
+    },
+    {
+      "vi": "Theo dõi SLA và trạng thái xử lý sự cố",
+      "en": "SLA monitoring and incident status tracking"
+    },
+    {
+      "vi": "Phân quyền xử lý theo vai trò IT và nghiệp vụ",
+      "en": "Role-based assignment for IT and business teams"
+    },
+    {
+      "vi": "Báo cáo và thống kê phục vụ cải tiến vận hành",
+      "en": "Reporting and analytics for operational improvement"
+    }
+  ],
+  "category": "Enterprise Platform",
+  "role": {
+    "vi": "Fullstack Developer / System Engineer",
+    "en": "Fullstack Developer / System Engineer"
+  }
+},
+{
+  "title": {
+    "vi": "Hệ thống Quản lý Công việc & OKRs",
+    "en": "Task Management & OKRs System"
+  },
+  "description": {
+    "vi": "Nền tảng quản lý công việc và OKRs phục vụ theo dõi tiến độ, hiệu suất và sự liên kết mục tiêu từ cấp cá nhân đến phòng ban. Hệ thống hỗ trợ phân quyền rõ ràng, phê duyệt theo vai trò và báo cáo thời gian thực, giúp nâng cao hiệu quả điều hành và minh bạch trong quản lý.",
+    "en": "A task and OKRs management platform enabling progress tracking, performance measurement, and goal alignment from individual to department levels. The system supports role-based approvals and real-time reporting to improve execution transparency."
+  },
+  "tech": [
+    ".NET Core",
+    "Next.js",
+    "PostgreSQL",
+    "Entity Framework",
+    "RESTful API",
+    "Redux",
+    "Microsoft 365 SSO",
+    "Role-Based Access Control",
+    "Clean Architecture",
+    "Docker"
+  ],
+  "year": "2025",
+  "team": {
+    "vi": "4 thành viên",
+    "en": "4 members"
+  },
+  "github": "",
+  "link": "",
+  "image": "/images/task-management.jpg",
+  "highlights": [
+    {
+      "vi": "Quản lý công việc theo mô hình OKRs & KPI",
+      "en": "OKRs- and KPI-driven task management"
+    },
+    {
+      "vi": "Theo dõi tiến độ và hiệu suất theo thời gian thực",
+      "en": "Real-time progress and performance tracking"
+    },
+    {
+      "vi": "Phân quyền, phê duyệt theo vai trò và cấp quản lý",
+      "en": "Role-based authorization and approval workflows"
+    },
+    {
+      "vi": "Đăng nhập tập trung qua Microsoft 365",
+      "en": "Centralized authentication via Microsoft 365 SSO"
+    }
+  ],
+  "category": "Enterprise Platform",
+  "role": {
+    "vi": "Fullstack Developer",
+    "en": "Fullstack Developer"
+  }
+},
+
+
   {
     "title": {
       "vi": "Hệ thống đặt phòng họp",
@@ -87,7 +304,7 @@
         "en": "Automated email notifications"
       }
     ],
-    "category": "Enterprise",
+    "category": "Enterprise Platform",
     "role": {
       "vi": "Fullstack Developer",
       "en": "Fullstack Developer"
@@ -152,7 +369,10 @@
       "MySQL"
     ],
     "year": "2025",
-    "team": "Cá nhân",
+    "team": {
+      "vi": "Cá nhân",
+      "en": "Individual"
+    },
     "github": "",
     "link": "",
     "image": "/images/calendar.png",
@@ -174,7 +394,7 @@
         "en": "Time statistics reporting"
       }
     ],
-    "category": "Enterprise",
+    "category": "Enterprise Platform",
     "role": {
       "vi": "Fullstack Developer",
       "en": "Fullstack Developer"

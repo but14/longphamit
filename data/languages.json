@@ -13,6 +13,8 @@
       "research": "Nghiên cứu khoa học",
       "projects": "Dự án",
       "projectsSubtitle": "Tổng hợp dự án tiêu biểu trong quá trình học tập và làm việc.",
+      "blog": "Blog",
+      "blogSubtitle": "Chia sẻ kiến thức, kinh nghiệm và bài học từ quá trình làm việc.",
       "contact": "Thông tin liên hệ"
     },
     "profile": {
@@ -32,7 +34,15 @@
       "year": "Năm",
       "team": "Nhóm",
       "role": "Vai trò",
-      "technologies": "Công nghệ"
+      "technologies": "Công nghệ",
+      "readMore": "Đọc thêm",
+      "backToBlog": "Quay lại Blog",
+      "searchBlog": "Tìm kiếm bài viết...",
+      "filterByTag": "Lọc theo tag",
+      "allPosts": "Tất cả bài viết",
+      "noPosts": "Chưa có bài viết nào.",
+      "readTime": "phút đọc",
+      "publishedOn": "Đăng ngày"
     }
   },
   "en": {
@@ -49,6 +59,8 @@
       "research": "Research",
       "projects": "Projects",
       "projectsSubtitle": "A collection of notable projects from my academic and professional journey.",
+      "blog": "Blog",
+      "blogSubtitle": "Sharing knowledge, experiences, and lessons learned from my journey.",
       "contact": "Contact Information"
     },
     "profile": {
@@ -68,7 +80,15 @@
       "year": "Year",
       "team": "Team",
       "role": "Role",
-      "technologies": "Technologies"
+      "technologies": "Technologies",
+      "readMore": "Read more",
+      "backToBlog": "Back to Blog",
+      "searchBlog": "Search posts...",
+      "filterByTag": "Filter by tag",
+      "allPosts": "All posts",
+      "noPosts": "No posts yet.",
+      "readTime": "min read",
+      "publishedOn": "Published on"
     }
   }
 }

@@ -15,8 +15,8 @@
     "en": "Software Engineer"
   },
   "summary": {
-    "vi": "Với thời gian được làm việc trong lĩnh vực chuyển đổi số doanh nghiệp, tôi mong muốn tạo dựng những giá trị bền vững thông qua đóng góp thiết thực và cam kết đồng hành lâu dài cùng sự phát triển của công ty. Tôi không ngừng học hỏi, hoàn thiện bản thân và sẵn sàng đảm nhận những trọng trách lớn hơn trong tương lai.",
-    "en": "With experience in the field of digital transformation, I aspire to create lasting value through meaningful contributions and a long-term commitment to the company's growth. I continuously seek to learn, improve myself, and remain ready to take on greater responsibilities in the future."
+    "vi": "Là một Kỹ sư phần mềm Fullstack, tôi đam mê việc dùng công nghệ để giải quyết các bài toán thực tế của doanh nghiệp. Với nền tảng vững chắc về hệ sinh thái .NET và frontend (Next.js/React), tôi chuyên thiết kế các hệ thống RESTful API hiệu năng cao, chú trọng vào sự bền vững thông qua Clean Architecture và Clean Code. Kinh nghiệm thực tế của tôi nằm ở khả năng kết nối các mảnh ghép phức tạp: từ việc tối ưu hóa quy trình ERP, đến tích hợp sâu rộng với các nền tảng lớn như SAP hay Microsoft 365. Mục tiêu của tôi không chỉ là viết code chạy tốt, mà là xây dựng những giải pháp tối ưu và dễ dàng bảo trì về dài hạn.",
+    "en": "Result-oriented Software Engineer with hands-on experience in developing enterprise-grade applications. Specialized in Fullstack Development with the .NET ecosystem and modern frontend frameworks (Next.js, React). Strong focus on building scalable RESTful APIs using Clean Architecture, Entity Framework Core, and Dependency Injection. Proven track record in optimizing internal ERP workflows and integrating complex systems (SAP, Microsoft Graph). Passionate about writing clean, maintainable code and solving business problems through technology. Experienced in delivering fullstack solutions within enterprise environments, bridging backend systems, frontend applications, and large-scale platforms such as SAP and Microsoft 365."
   },
   "university": {
     "name": {
@@ -43,83 +43,38 @@
         "en": "03/2025 - Present"
       },
       "description": {
-        "vi": "Phát triển nhiều dự án quan trọng cho công ty, bao gồm website doanh nghiệp, nền tảng e-Learning, hệ thống quản lý lịch trình, hệ thống V-Card trực tuyến và ứng dụng quét CCCD.",
-        "en": "Developed multiple key projects for the company, including corporate websites, e-Learning platform, schedule management system, online V-Card system, and ID scanning application."
+        "vi": "Thiết kế và phát triển các tính năng fullstack end-to-end cho hệ sinh thái ERP cốt lõi, bao gồm backend (.NET Core) và frontend (Next.js / Flutter), tuân theo nguyên tắc Clean Architecture. Triển khai Dependency Injection trong toàn bộ hệ thống, tối ưu hóa lớp truy cập dữ liệu với Entity Framework Core và LINQ, xây dựng thư viện UI components tái sử dụng cho Web và Mobile. Tích hợp mạnh mẽ giữa ERP nội bộ với SAP S/4HANA và Microsoft 365. Áp dụng các thực hành quản lý dịch vụ theo ITIL v4, phát triển các tính năng có tác động cao như hệ thống Digital ID và Competency Assessment, cải thiện hiệu quả xác minh HR lên 60%.",
+        "en": "Designed and developed end-to-end fullstack features for the Enterprise Resource Planning (ERP) Core Ecosystem, including backend services (.NET Core) and frontend interfaces (Next.js / Flutter), following Clean Architecture principles. Implemented Dependency Injection (DI) throughout the system, optimized data access layers using Entity Framework Core and LINQ, built reusable UI component libraries for Web and Mobile platforms. Engineered robust integrations between internal ERP and SAP S/4HANA and Microsoft 365. Applied ITIL v4-aligned service management practices, delivered high-impact features including Digital ID system and Competency Assessment, improving HR verification efficiency by 60%."
       },
       "projects": [
         {
           "name": {
-            "vi": "Website NhaTrang Seafoods",
-            "en": "NhaTrang Seafoods Website"
+            "vi": "ERP Core Ecosystem",
+            "en": "ERP Core Ecosystem"
           },
           "role": {
             "vi": "Fullstack Developer",
             "en": "Fullstack Developer"
           },
-          "tech": "PHP, Wordpress, FivoDocs, Flatsome theme, MySQL",
+          "tech": ".NET Core (Clean Architecture, EF Core, DI), Next.js, Flutter, SQL Server, Docker, Microsoft Graph API, SAP S/4HANA, Moodle",
           "achievements": {
-            "vi": "Phát triển và triển khai website doanh nghiệp cho NhaTrang Seafoods, cải thiện khả năng tiếp cận trực tuyến của khách hàng và tăng hiệu quả xử lý đơn hàng lên 25%.",
-            "en": "Developed and deployed a corporate website for NhaTrang Seafoods, improving customer online access and increasing order processing efficiency by 25%."
+            "vi": "• Thiết kế và phát triển các tính năng fullstack end-to-end, bao gồm backend services (.NET Core) và frontend interfaces (Next.js / Flutter), tuân theo nguyên tắc Clean Architecture.\n• Triển khai Dependency Injection (DI) trong toàn bộ hệ thống để tách biệt các thành phần, giúp tăng tốc độ phát triển tính năng lên 30% và hỗ trợ các mẫu Unit Testing hiệu quả.\n• Tối ưu hóa lớp truy cập dữ liệu sử dụng Entity Framework Core và LINQ, xử lý các truy vấn phức tạp cho các module HR và Operational trong khi đảm bảo hiệu suất cao.\n• Xây dựng thư viện UI components tái sử dụng cho hệ thống ERP để đảm bảo tính nhất quán trong thiết kế trên các nền tảng Web (Next.js) và Mobile (Flutter).\n• Thiết kế tích hợp mạnh mẽ giữa ERP nội bộ với SAP S/4HANA (đồng bộ dữ liệu master, quy trình hoạt động) và Microsoft 365 (Graph API), cho phép tự động hóa các quy trình liên phòng ban.\n• Áp dụng các thực hành quản lý dịch vụ theo ITIL v4 khi phát triển và vận hành hệ thống ERP, đảm bảo xử lý có cấu trúc cho các sự cố, yêu cầu thay đổi và cải tiến dịch vụ liên tục.\n• Phát triển các tính năng có tác động cao bao gồm hệ thống Digital ID (Flutter) và Competency Assessment (Moodle), cải thiện hiệu quả xác minh HR lên 60%.",
+            "en": "• Designed and developed end-to-end fullstack features, including backend services (.NET Core) and frontend interfaces (Next.js / Flutter), following Clean Architecture principles.\n• Implemented Dependency Injection (DI) throughout the system to decouple components, facilitating 30% faster feature development and enabling effective Unit Testing patterns.\n• Optimized data access layers using Entity Framework Core and LINQ, handling complex queries for HR and Operational modules while ensuring high performance.\n• Built reusable UI component libraries for the ERP system to ensure design consistency across Web (Next.js) and Mobile (Flutter) platforms.\n• Engineered robust integrations between the internal ERP and SAP S/4HANA (master data synchronization, operational workflows) and Microsoft 365 (Graph API), enabling automated cross-department processes.\n• Applied ITIL v4-aligned service management practices when developing and operating ERP systems, ensuring structured handling of incidents, change requests, and continuous service improvements.\n• Delivered high-impact features including the Digital ID system (Flutter) and Competency Assessment (Moodle), improving HR verification efficiency by 60%."
           }
         },
         {
           "name": {
-            "vi": "E-Learning I Group",
-            "en": "E-Learning I Group"
+            "vi": "Business & Analytics",
+            "en": "Business & Analytics"
           },
           "role": {
-            "vi": "Fullstack Developer",
-            "en": "Fullstack Developer"
+            "vi": "Business Analyst / Data Analyst",
+            "en": "Business Analyst / Data Analyst"
           },
-          "tech": "PHP, Moodle, Edwiser RemUi Theme, MySQL",
+          "tech": "SQL Server, Power BI, Microsoft Project",
           "achievements": {
-            "vi": "Xây dựng nền tảng e-learning nội bộ hỗ trợ hơn 100 nhân viên, giảm chi phí đào tạo 40% và cho phép theo dõi tiến độ và báo cáo theo thời gian thực.",
-            "en": "Built an internal e-learning platform supporting 100+ employees, reducing training costs by 40% and enabling real-time progress tracking and reporting."
-          }
-        },
-        {
-          "name": {
-            "vi": "Hệ thống Lịch trình",
-            "en": "Schedule Calendar System"
-          },
-          "role": {
-            "vi": "Fullstack Developer",
-            "en": "Fullstack Developer"
-          },
-          "tech": "NodeJS, React JS, ExpressJS, Microservices, Material UI, MySQL",
-          "achievements": {
-            "vi": "Thiết kế và triển khai hệ thống quản lý lịch làm việc cho giám đốc bộ phận, tích hợp với Microsoft 365; tối ưu hóa điều phối lịch trình và giảm xung đột lịch 30%.",
-            "en": "Designed and implemented a work schedule management system for divisional directors, integrated with Microsoft 365; optimized executive calendar coordination and reduced scheduling conflicts by 30%."
-          }
-        },
-        {
-          "name": {
-            "vi": "Hệ thống V-Card trực tuyến",
-            "en": "V-Card Online System"
-          },
-          "role": {
-            "vi": "Fullstack Developer",
-            "en": "Fullstack Developer"
-          },
-          "tech": "PHP, Laravel 11, Bootstrap, JQuery, MySQL",
-          "achievements": {
-            "vi": "Phát triển hệ thống V-Card số cho tất cả nhân viên trong tập đoàn, cho phép tự động tạo mã QR liên kết với trang hồ sơ cá nhân. Tích hợp thành công với chữ ký email Outlook, cải thiện thương hiệu chuyên nghiệp và giảm 50% công sức chia sẻ thủ công.",
-            "en": "Developed a digital V-Card system for all employees across the corporation, enabling automatic QR Code generation linked to personal profile pages. Successfully integrated with Outlook email signatures, improving professional branding and reducing manual sharing effort by 50%."
-          }
-        },
-        {
-          "name": {
-            "vi": "Hệ thống quét CCCD nhân viên",
-            "en": "Employee ID Scanning System"
-          },
-          "role": {
-            "vi": "Fullstack Developer",
-            "en": "Fullstack Developer"
-          },
-          "tech": "Flutter (Mobile App), ReactJS, ExpressJS, REST API, Material UI, MySQL",
-          "achievements": {
-            "vi": "Xây dựng ứng dụng di động để quét CCCD của công nhân nhà máy, với dữ liệu tự động tải lên cổng HR tập trung. Đẩy nhanh quy trình nhập và xác minh nhân sự lên 60%, đảm bảo truy cập chính xác, theo thời gian thực vào hồ sơ nhân viên cho phòng nhân sự. Được thiết kế để tích hợp với hệ thống HRM của toàn tập đoàn trong tương lai, hỗ trợ đồng bộ hóa dữ liệu liền mạch và quản lý nhân sự tập trung.",
-            "en": "Built a mobile application for scanning Vietnamese citizen ID cards of factory workers, with data automatically uploaded to a centralized HR portal. Accelerated HR onboarding and verification process by 60%, ensuring accurate, real-time access to employee records for the HR department. Designed for future integration with the corporation's HRM system, supporting seamless data synchronization and centralized personnel management."
+            "vi": "• Hợp tác với các bên liên quan để phân tích yêu cầu kinh doanh và chuyển đổi chúng thành quy trình hệ thống cho các quy trình E-Procurement (PR, PO, phê duyệt).\n• Phát triển các dashboard Power BI để giám sát hiệu suất mua sắm, đánh giá nhà cung cấp và các chỉ số tối ưu hóa chi phí.\n• Hỗ trợ điều phối dự án giữa các nhóm nội bộ và nhà cung cấp bên ngoài để đảm bảo giao hàng đúng hạn.",
+            "en": "• Collaborated with stakeholders to analyze business requirements and translate them into system workflows for E-Procurement processes (PR, PO, approvals).\n• Developed Power BI dashboards to monitor procurement performance, supplier evaluation, and cost optimization metrics.\n• Supported project coordination between internal teams and external vendors to ensure on-time delivery."
           }
         }
       ]
@@ -287,6 +242,10 @@
     {
       "vi": "Google Certificate of Completion – Elements of AI",
       "en": "Google Certificate of Completion – Elements of AIs"
+    },
+    {
+      "vi": "Certified Cybersecurity Educator Professional (CCEP)",
+      "en": "Certified Cybersecurity Educator Professional (CCEP)"
     }
   ],
   "research": [

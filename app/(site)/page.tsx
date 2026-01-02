@@ -4,6 +4,7 @@ import Section from "@/components/Section";
 import ProfileHeader from "@/components/ProfileHeader";
 import Timeline from "@/components/Timeline";
 import SkillCard from "@/components/SkillCard";
+import SectionNav from "@/components/SectionNav";
 import {
   Github,
   Linkedin,
@@ -105,23 +106,27 @@ export default function Home() {
   };
 
   return (
-    <motion.div 
-      className="space-y-16 mb-12"
-      initial="hidden"
-      animate="visible"
-      variants={containerVariants}
-    >
-      {/* Profile Header with Avatar */}
-      <motion.div variants={itemVariants}>
-        <ProfileHeader t={t} getProfileValue={getProfileValue} />
-      </motion.div>
+    <>
+      {/* Section Navigation */}
+      <SectionNav />
 
-      {/* Info Card Section */}
       <motion.div 
-        className="card p-6 md:p-8 relative overflow-hidden"
-        variants={itemVariants}
-        whileHover={{ scale: 1.01, transition: { duration: 0.2 } }}
+        className="space-y-16 mb-12"
+        initial="hidden"
+        animate="visible"
+        variants={containerVariants}
       >
+        {/* Profile Header with Avatar */}
+        <motion.div id="about" variants={itemVariants}>
+          <ProfileHeader t={t} getProfileValue={getProfileValue} />
+        </motion.div>
+
+        {/* Info Card Section */}
+        <motion.div 
+          className="card p-6 md:p-8 relative overflow-hidden"
+          variants={itemVariants}
+          whileHover={{ scale: 1.01, transition: { duration: 0.2 } }}
+        >
         <div
           className="absolute -right-10 -top-10 size-40 rounded-full blur-3xl opacity-30"
           style={{
@@ -169,13 +174,16 @@ export default function Home() {
         </ul>
       </motion.div>
 
-      {/* Experience Section */}
-      <Section title={t("sections.experience")}>
-        <Timeline items={experienceItems} />
-      </Section>
+        {/* Experience Section */}
+        <div id="experience">
+          <Section title={t("sections.experience")}>
+            <Timeline items={experienceItems} />
+          </Section>
+        </div>
 
-      {/* Skills Section */}
-      <Section title={t("sections.skills.title")}>
+        {/* Skills Section */}
+        <div id="skills">
+          <Section title={t("sections.skills.title")}>
         <div className="grid md:grid-cols-2 gap-6">
           {profile.skills.technical.map((skill, i) => {
             const category = getProfileValue(skill.category);
@@ -221,10 +229,12 @@ export default function Home() {
             </div>
           </motion.div>
         </div>
-      </Section>
+          </Section>
+        </div>
 
-      {/* Research Section */}
-      <Section title={t("sections.research")}>
+        {/* Research Section */}
+        <div id="research">
+          <Section title={t("sections.research")}>
         <motion.ul 
           className="grid md:grid-cols-2 gap-4"
           variants={containerVariants}
@@ -261,10 +271,12 @@ export default function Home() {
             </motion.li>
           ))}
         </motion.ul>
-      </Section>
+          </Section>
+        </div>
 
-      {/* Contact Section */}
-      <Section title={t("sections.contact")}>
+        {/* Contact Section */}
+        <div id="contact">
+          <Section title={t("sections.contact")}>
         <motion.div 
           className="card p-6 md:p-8 relative overflow-hidden"
           variants={itemVariants}
@@ -315,7 +327,9 @@ export default function Home() {
             )}
           </div>
         </motion.div>
-      </Section>
-    </motion.div>
+          </Section>
+        </div>
+      </motion.div>
+    </>
   );
 }

@@ -19,10 +19,12 @@ export default function Navbar() {
     vi: [
       { href: "/", label: "Giới thiệu" },
       { href: "/projects", label: "Dự án" },
+      { href: "/blog", label: "Blog" },
     ],
     en: [
       { href: "/", label: "About" },
       { href: "/projects", label: "Projects" },
+      { href: "/blog", label: "Blog" },
     ],
   };
 

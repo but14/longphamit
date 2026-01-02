@@ -33,6 +33,8 @@ a {
 /* Gradient text effect */
 .gradient-text {
   @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600;
+  display: inline-block;
+  padding-bottom: 0.1em;
 }
 
 /* Glow effects */

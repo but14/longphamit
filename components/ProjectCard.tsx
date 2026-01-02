@@ -136,7 +136,7 @@ export default function ProjectCard({ project }: { project: any }) {
           )}
           {project.team && (
             <span className="inline-flex items-center gap-1">
-              <Users size={16} className="text-green-400"/> {project.team}
+              <Users size={16} className="text-green-400"/> {getLocalizedValue(project.team)}
             </span>
           )}
         </div>
