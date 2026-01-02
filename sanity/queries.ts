@@ -88,32 +88,32 @@ export async function getAllTags(): Promise<string[]> {
   return Array.from(new Set(allTags))
 }
 
-// Search posts by query
-export async function searchPosts(query: string): Promise<BlogPost[]> {
-  const params: { query: string } = { query: `*${query}*` }
-  return client.fetch<BlogPost[]>(
-    `*[_type == "post" && isDraft != true && (
-      title.vi match $query || 
-      title.en match $query || 
-      excerpt.vi match $query || 
-      excerpt.en match $query ||
-      $query in tags
-    )] | order(publishedAt desc) {
-      _id,
-      _createdAt,
-      _updatedAt,
-      title,
-      slug,
-      excerpt,
-      "coverImage": coverImage {
-        "url": asset->url,
-        alt
-      },
-      tags,
-      publishedAt,
-      readTime,
-      isDraft
-    }`,
-    params
-  )
-}
+// Search posts by query - Currently disabled due to TypeScript compatibility
+// export async function searchPosts(query: string): Promise<BlogPost[]> {
+//   const params: { query: string } = { query: `*${query}*` }
+//   return client.fetch<BlogPost[]>(
+//     `*[_type == "post" && isDraft != true && (
+//       title.vi match $query || 
+//       title.en match $query || 
+//       excerpt.vi match $query || 
+//       excerpt.en match $query ||
+//       $query in tags
+//     )] | order(publishedAt desc) {
+//       _id,
+//       _createdAt,
+//       _updatedAt,
+//       title,
+//       slug,
+//       excerpt,
+//       "coverImage": coverImage {
+//         "url": asset->url,
+//         alt
+//       },
+//       tags,
+//       publishedAt,
+//       readTime,
+//       isDraft
+//     }`,
+//     params
+//   )
+// }
